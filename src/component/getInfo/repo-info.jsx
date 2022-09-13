@@ -5,7 +5,7 @@ function Repo(){
     return(
         <div className='cont'>
             <div>
-                <a href="https://github.com/ToledoFernando/Rick_y_Morty-Prueba" target="_blank">Ver repositorio en GitHub</a><img src={icon} alt="github" />
+                <a href="https://github.com/ToledoFernando/Rick-y-Morty_Prueba" target="_blank">Ver repositorio en GitHub</a><img src={icon} alt="github" />
             </div>
         </div>
     )
