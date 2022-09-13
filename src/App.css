@@ -1,0 +1,75 @@
+*{
+  font-family: sans-serif;
+}
+.App {
+  text-align: center;
+  color: #fff;
+}
+@media only screen and (max-width: 700px){
+  .App{
+    height: 138vh;
+
+  }
+}
+.img{
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+  width: 0;
+  height: 0;
+  animation-name: portal;
+  animation-duration: 1s;
+  transition: all 1s;
+  transform-origin: left;
+  animation-fill-mode: forwards;
+  z-index: 100;
+}
+
+@keyframes portal {
+  0%{
+    width: 0;
+  }
+  60%{
+    width: 210px;
+    height: 360px;
+  }
+  100%{
+    z-index: 100;
+    width: 200px;
+    height: 350px;
+  }
+}
+
+.anim{
+  position: fixed;
+  right: 50px;
+  bottom: 15px;
+  z-index: 110;
+  animation-name: RyM;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  opacity: 0%;
+}
+
+@keyframes RyM {
+  9%{opacity: 27%;}
+  15%{opacity: 3%;}
+  33%{opacity: 29%;}
+  40%{opacity: 30%;}
+  60%{opacity: 80%;}
+  70%{opacity: 100%;}
+  80%{opacity: 100%;}
+  100%{opacity: 0%;}
+}
+
+.anim .MortyPNG{  
+  width: 40px;
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+.anim .RickPNG{
+  width: 70px;
+  height: 200px;
+}

@@ -1,0 +1,56 @@
+.body-L{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    z-index: 120;
+    padding-top: 50px;
+}
+
+.body-L div{
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.502);
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #747474;
+    border-radius: 7px;
+}
+
+.next2{
+    background-color: #1f4de3;
+    color: #fff;
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 7px;
+    /* position: absolute; */
+    float: right;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.prev2{
+    background-color: #1a3aa3;
+    color: #fff;
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 7px;
+    /* position: absolute; */
+    float: left;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+button:disabled{
+    background-color: #0d183d;
+    cursor: default;
+}
+
+.body-L p{
+    padding: 5px;
+}
+.U-Title{
+    text-align: center;
+    font-size: 25px;
+    margin: 8px 0px 20px 0px;
+}

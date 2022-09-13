@@ -1,0 +1,29 @@
+.cont{
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.cont div{
+    width: 270px;
+    height: 70px;
+    margin: auto;
+    padding-top: 90px;
+    position: relative;
+}
+.cont a{
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    left: 0;
+    top: 71%;
+}
+.cont a:hover{
+    text-decoration: underline;
+}
+.cont img{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    right: 0;
+}

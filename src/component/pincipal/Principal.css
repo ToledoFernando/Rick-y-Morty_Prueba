@@ -1,0 +1,76 @@
+.opciones{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    z-index: 200;
+}
+@media only screen and (min-width: 700px){
+    .opciones{
+        margin-top: 90px;
+    }
+}
+
+
+.opciones a{
+    color: #fff;
+    text-decoration: none;
+}
+.Personajes{
+    width: 300px;
+    height: 170px;
+    margin: 20px 20px;
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.Ubicaciones{
+    width: 300px;
+    height: 170px;
+    margin: 20px 20px;
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.Episodios{
+    width: 300px;
+    height: 170px;
+    margin: 20px 20px;
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.opciones div{
+    margin: 20px;
+    transition: all 0.2s;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.opciones div:hover{
+    background-color: rgb(48, 48, 48);
+}
+
+.Cargando{
+    width: 155px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 70px;
+    animation-name: cargando;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cargando {
+    100%{
+        width: 200px;
+    }
+}

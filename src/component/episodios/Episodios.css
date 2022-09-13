@@ -1,0 +1,17 @@
+.Lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+    position: relative;
+    z-index: 200;
+}
+
+.Lista div{
+    background-color: #0000005d;
+    border: 1px solid #5656566f;
+    margin: 15px;
+    padding: 15px;
+    text-align: left;
+    border-radius: 7px;
+}

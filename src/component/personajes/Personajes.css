@@ -1,0 +1,76 @@
+.component-personajes{
+    position: relative;
+    z-index: 200;
+    padding: 0 50px 350px 50px;
+}
+.personajeOp{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.next-prev{
+    position: relative;
+}
+.next{
+    background-color: #1f4de3;
+    color: #fff;
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 7px;
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+}
+button:disabled{
+    background-color: #18213e;
+    cursor: default;
+}
+
+.prev{
+    background-color: #1a3aa3;
+    color: #fff;
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 7px;
+    position: absolute;
+    cursor: pointer;
+    left: 30px;
+}
+
+.body-P{
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.body-P div{
+    margin: 10px;
+    transition: all 0.5s;
+    padding: 10px;
+}
+.body-P div:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.body-P .imagen{
+    width: 250px;
+    padding: 0;
+}
+
+.body-P div .imagen img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.body-P div:hover img{
+    transform: scale3d(1.1);
+    border-radius: 10%;
+}
+
+.body-P div h1{
+    font-size: 20px;
+}
