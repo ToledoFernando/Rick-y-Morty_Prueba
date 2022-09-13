@@ -10,6 +10,7 @@
     margin: auto;
     padding-top: 90px;
     position: relative;
+    z-index: 120;
 }
 .cont a{
     position: absolute;
