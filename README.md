@@ -1,3 +1,6 @@
 # Rick-y-Morty_Prueba
 
-Link: https://rickymortyprueba.herokuapp.com/
+### Aplicacion creada en ReactJS
+### consumiendo la API de Rick y Morty
+
+Link [Deploy](https://rickymortyprueba.herokuapp.com/)
