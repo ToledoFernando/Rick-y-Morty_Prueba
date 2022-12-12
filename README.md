@@ -7,4 +7,4 @@
 console.log('wubalubadubdub')
 ```
 
-Link [Deploy](https://rickymortyprueba.herokuapp.com/)
+Link [Deploy](https://rick-y-morty-prueba.vercel.app/)
